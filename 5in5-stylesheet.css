@@ -1,0 +1,112 @@
+h1, h2, h3, a, li, p {
+	font-family: raleway;
+}
+
+h1 {
+	color: white;
+	background-color: #D17E7E;
+	font-size: 82px;
+	padding: 30px;
+	max-width: 400px;
+	margin: 0 0 0 4%;
+}
+
+h2 {
+	/*background-color: #f8a9a1;*/
+	max-width: 400px;
+	font-size: 40px;
+	border-bottom: 10px solid #f8a9a1;
+}
+
+h3 {
+	color: silver;
+	font-size: 30px;
+	margin: 5% 0 10% 0;
+}
+
+p {
+	font-size: 20px;
+	max-width:800px;
+	margin: 5% 0;
+	line-height: 1.6;
+}
+
+img {
+	width: 100%;
+}
+
+li {
+	display: inline;
+	list-style-type: none;
+	padding: 5px 10px;
+	font-size: 16px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: #f48276;
+}
+
+a:active {
+	color: black;
+}
+
+#wrap {
+	max-width: 70%;
+	margin: 0 auto 0 auto;
+}
+
+#row {
+	display: flex;
+}
+
+#column {
+	flex: 60%;
+	margin: 0 0 0 10%;
+
+}
+
+#day-section {
+	margin: 10% 0;
+
+}
+
+#url {
+	color: #f8a9a1;
+}
+
+#url:hover {
+	color: black;
+}
+
+#url:active {
+	color: #f48276;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #f8a9a1; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #f48276; 
+}
+
+
+
+
