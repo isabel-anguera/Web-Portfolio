@@ -11,17 +11,22 @@ h1 {
 	margin: 0 0 0 4%;
 }
 
+
 h2 {
-	/*background-color: #f8a9a1;*/
+	background-color: #f8a9a1;
 	max-width: 400px;
-	font-size: 40px;
-	border-bottom: 10px solid #f8a9a1;
+	font-size: 38px;
+	/*text-shadow: -5px 5px 0 #f0916b;*/
+	/*border-bottom: 10px solid #f8a9a1;*/
 }
 
 h3 {
-	color: silver;
+	color: grey;
 	font-size: 30px;
-	margin: 5% 0 10% 0;
+	margin: 2% 0 10% 2%;
+	max-width: 700px;
+	line-height: 1.5;
+	text-align: justify;
 }
 
 p {
@@ -55,6 +60,15 @@ a:active {
 	color: black;
 }
 
+#highlighted {
+	background-color: #f0916b;
+	max-width: 400px;
+	font-size: 38px;
+	text-shadow: none;
+	/*margin-left: 10%;*/
+	/*border-bottom: 10px solid #f8a9a1;*/
+}
+
 #wrap {
 	max-width: 70%;
 	margin: 0 auto 0 auto;
@@ -62,16 +76,17 @@ a:active {
 
 #row {
 	display: flex;
+	margin-top: 10%;
 }
 
 #column {
-	flex: 60%;
+	flex: 50%;
 	margin: 0 0 0 10%;
 
 }
 
-#day-section {
-	margin: 10% 0;
+#section {
+	margin: 12% 0;
 
 }
 
