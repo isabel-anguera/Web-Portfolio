@@ -1,0 +1,121 @@
+
+html {
+	font-family: raleway;
+}
+
+li {
+	list-style-type: none;
+	display: inline;
+	padding: 10px 0 5px 20px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: #79BBED;
+}
+
+a:active {
+	color: black;
+}
+
+
+h2 {
+	font-size: 38px;
+	position: relative;
+	margin-top: 10%;
+	max-width: 400px;
+	background: #79BBED;
+	padding: -10px 10px -3px -5px;
+	margin-bottom: -18%;
+	/*text-shadow: -5px 5px 10px #FFC803;*/
+}
+
+h3 {
+	font-size: 42px;
+	max-width: 600px;
+	padding: -10px 10px -3px -5px;
+	color: black;
+	border-bottom: 10px solid #79BBED;
+	margin-bottom: -18%;
+	margin-top: 10%;
+	margin-left: 30%;
+	/*text-shadow: -3px 2px 0 #79BBED;*/
+}
+
+hr {
+	margin-top: 7%;
+}
+
+img {
+	width: 100%;
+	margin-top: -5%;
+}
+
+p {
+	/*max-width: 600px;*/
+	max-width: 95%;
+	line-height: 1.6;
+	position: relative;
+	padding-top: 23%;
+	font-size: 18px;
+	padding-left: 5%;
+	margin-top: 0;
+	margin-bottom: 10%;
+	text-align: justify;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+.wrap {
+	max-width: 70%;
+	margin: 0 auto 0 auto;
+}
+
+
+#column {
+	flex: 50%;
+	-webkit-column-gap: 5%;
+	column-gap: 5%;
+}
+
+#row {
+	display: flex;
+	/*margin-bottom: 7%;*/
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #79BBED; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #5097CD; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
