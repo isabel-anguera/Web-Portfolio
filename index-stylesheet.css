@@ -26,7 +26,7 @@ li {
 
 ul {
 	background:white;
-	box-shadow: -3px 3px 5px grey;
+	box-shadow: -3px 3px 5px silver;
 	margin: 0;
 	padding: 1.5%;
 }
@@ -62,11 +62,10 @@ a:active {
 
 #description-paragraph {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 2.5em;
+	font-size: 2.25em;
 	margin: 4% 5% 4% 13%;
 	display:flex;
 	flex-wrap: wrap;
-
 }
 
 
@@ -92,6 +91,26 @@ a:active {
 #title-card:active {
 	opacity: 1;
 }
+
+#scroll-indicator {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5em;
+	margin: 0 2% -5px 0 ;
+	text-align: right;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
