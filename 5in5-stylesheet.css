@@ -1,4 +1,4 @@
-h1, h2, h3, a, li, p {
+h1, h2, a, li, p {
 	font-family: raleway;
 }
 
@@ -17,24 +17,27 @@ h1 {
 
 
 h2 {
-	background-color: #f8a9a1;
+	/*background-color: #f8a9a1;*/
 	max-width: 400px;
 	font-size: 38px;
+	color: #e16e79;
 	/*text-shadow: -5px 5px 0 #f0916b;*/
-	/*border-bottom: 10px solid #f8a9a1;*/
+	border-bottom: 5px solid #fbdde5;
 }
 
 h3 {
 	color: grey;
 	font-size: 30px;
-	margin: 2% 0 10% 2%;
-	max-width: 700px;
+	margin: 2% 0 10% 4%;
+	max-width: 90%;
 	line-height: 1.5;
+	font-family: "Avenir Next";
+	font-weight: lighter;
 	text-align: justify;
 }
 
 p {
-	font-size: 20px;
+	font-size: 18px;
 	max-width:800px;
 	margin: 5% 0;
 	line-height: 1.6;
@@ -73,6 +76,7 @@ a:active {
 	color: black;
 }
 
+
 #highlighted {
 	background-color: #f0916b;
 	max-width: 400px;
@@ -83,7 +87,7 @@ a:active {
 }
 
 #wrap {
-	max-width: 70%;
+	max-width: 65%;
 	margin: 0 auto 0 auto;
 }
 
@@ -108,11 +112,17 @@ a:active {
 }
 
 #url:hover {
-	color: black;
+	color: #e16e79;
 }
 
 #url:active {
 	color: #f48276;
+}
+
+#section:nth-of-type(even) {
+	/*background-color: #fdfbf4;*/
+	padding: 5% 12%;
+	background-color: #fbdde550 ;
 }
 
 
