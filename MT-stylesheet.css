@@ -3,10 +3,24 @@ html {
 	font-family: raleway;
 }
 
+body {
+	margin: 0;
+}
+
 li {
-	list-style-type: none;
 	display: inline;
-	padding: 10px 0 5px 20px;
+	list-style-type: none;
+	padding: 5px 10px;
+	font-size: 16px;
+}
+
+ul {
+	background:white;
+	box-shadow: -3px 3px 5px silver;
+	margin: 0;
+	padding: 1.5%;
+	margin-bottom: 5px;
+
 }
 
 a {
@@ -24,12 +38,12 @@ a:active {
 
 
 h2 {
-	font-size: 38px;
+	font-size: 55px;
 	position: relative;
 	margin-top: 10%;
-	max-width: 400px;
-	background: #79BBED;
-	padding: -10px 10px -3px -5px;
+	/*max-width: 400px;*/
+	/*background: #79BBED;*/
+	/*padding: -10px 10px -3px -5px;*/
 	margin-bottom: -18%;
 	/*text-shadow: -5px 5px 10px #FFC803;*/
 }
@@ -53,16 +67,17 @@ hr {
 img {
 	width: 100%;
 	margin-top: -5%;
+	margin-bottom: 5%;
 }
 
 p {
 	/*max-width: 600px;*/
-	max-width: 95%;
+	/*max-width: 95%;*/
 	line-height: 1.6;
 	position: relative;
 	padding-top: 23%;
 	font-size: 18px;
-	padding-left: 5%;
+	/*padding-left: 5%;*/
 	margin-top: 0;
 	margin-bottom: 10%;
 	text-align: justify;
@@ -82,11 +97,40 @@ body {
 	flex: 50%;
 	-webkit-column-gap: 5%;
 	column-gap: 5%;
+	padding: 2%;
 }
 
 #row {
 	display: flex;
 	/*margin-bottom: 7%;*/
+}
+
+#section {
+	/*margin-top: 5%;*/
+}
+
+#How-to-play {
+	background-color: #ECFAFF;
+	max-height: 500px;
+	text-align: center;
+	overflow-x: hidden;
+	margin-bottom: 4%;
+}
+
+#rules-header {
+	padding:4% 0 0 0; 
+	margin-bottom:5%;
+	font-size: 25px;
+	text-align: center;
+}
+
+#more-work {
+	font-size: 55px;
+	margin-top: -5%;
+	margin-left: 60%;
+	font-weight: 800;
+	padding-bottom: 5%;
+	user-select: none;
 }
 
 ::-webkit-scrollbar {
