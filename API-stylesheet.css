@@ -1,0 +1,79 @@
+h1, h3, a, li, p {
+	font-family: raleway;
+}
+
+body {
+	margin: 0;
+	background-image: url("Imgs/API-bg.png");
+}
+
+h1 {
+	color: tomato;
+	background-color: #ECFAFF;
+	font-size: 55px;
+	padding: 2%;
+	max-width: 75%;
+	margin: 4% 0 0 2%;
+}
+
+h3 {
+	color: black;
+	font-size: 48px;
+	margin: 15% 0 10% 4%;
+	text-align: center;
+}
+
+p {
+	font-size: 22px;
+	max-width:800px;
+	margin: -1.2% 0 0 25%;
+	z-index: 2;
+
+}
+
+li {
+	display: inline;
+	list-style-type: none;
+	padding: 5px 10px;
+	font-size: 16px;
+}
+
+ul {
+	background:white;
+	box-shadow: -3px 3px 5px silver;
+	margin: 0;
+	padding: 1.5%;
+	margin-bottom: 5px;
+
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: tomato;
+}
+
+a:active {
+	color: black;
+}
+
+#site-url {
+	color: tomato;
+}
+
+#site-url:hover {
+	color: black;
+}
+
+#site-url:active {
+	color: #FEF175;
+}
+
+
+
+
+
+
