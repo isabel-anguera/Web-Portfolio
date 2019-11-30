@@ -125,6 +125,20 @@ a:active {
 	background-color: #fbdde550 ;
 }
 
+#more-work {
+	font-size: 45px;
+	margin-top: -5%;
+	margin-left: 30%;
+	font-weight: 800;
+	padding-bottom: 5%;
+	user-select: none;
+	color: #e16e79;
+}
+
+#more-work:hover {
+	color: tomato;
+}
+
 
 ::-webkit-scrollbar {
   width: 10px;
