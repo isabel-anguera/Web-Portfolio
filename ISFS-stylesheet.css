@@ -1,6 +1,6 @@
 
 
-h1, h2, h3, p, li {
+h1, h2, h3, p, li, a {
 	font-family: raleway;
 }
 
@@ -237,6 +237,21 @@ hr {
 	position: -webkit-sticky;
 	position: sticky;
 	top:0;
+}
+
+#section-more {
+	margin-top: 5%;
+}
+
+#more-work {
+	font-size: 55px;
+	padding-top: 15%;
+	margin-left: 30%;
+	font-weight: 800;
+	padding-bottom: 5%;
+	user-select: none;
+
+	/*color: #e16e79;*/
 }
 
 ::-webkit-scrollbar {
