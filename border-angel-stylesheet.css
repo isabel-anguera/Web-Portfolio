@@ -1,0 +1,138 @@
+
+body {
+	margin:0;
+}
+
+li {
+	display: inline;
+	list-style-type: none;
+	padding: 5px 10px;
+	font-size: 16px;
+}
+
+ul {
+	background:white;
+	box-shadow: -3px 3px 5px silver;
+	margin: 0;
+	padding: 1.5%;
+	margin-bottom: 5px;
+}
+
+a {
+	text-decoration: none;
+	font-family: Raleway;
+	color: black;
+}
+
+a:hover {
+	color: #D4ECFC;
+}
+
+a:active {
+	color: black;
+}
+
+img {
+	width: 100%;
+}
+
+p {
+	font-family: "Avenir Next";
+	text-align: justify;
+	font-size: 15px;
+	/*max-width: 65%;*/
+}
+
+h2 {
+	font-family: Raleway;
+	font-size: 42px;
+	margin-bottom: .5em;
+}
+
+iframe {
+	margin-left:7%;
+	border: solid 4px black;
+}
+
+.wrap {
+	max-width: 68%;
+	margin: 0 auto 0 auto;
+}
+
+#section {
+	margin-top: 5%;
+}
+
+#left-p {
+	width: 60%;
+	background-color:#D4ECFC; 
+	padding: 2% 3%;
+}
+
+#column {
+	flex: 50%;
+	/*-webkit-column-gap: 5%;*/
+	/*column-gap: 5%;*/
+	/*padding: 2%;*/
+}
+
+#row {
+	display: flex;
+	/*margin-bottom: 7%;*/
+}
+
+#sketch {
+	z-index: 99;
+	margin-left: -15%;
+	margin-top: -40%;
+	/*background-color: ;*/
+}
+
+#model-man {
+	z-index: 1;
+	width: 200%;
+	margin-left: -40%;
+	margin-top: -22%;
+
+}
+
+#pic-desc {
+	font-size: 12px;
+}
+
+#model-jug {
+	margin-left: -10%;
+	margin-top: 8%;
+	width:85%
+}
+
+#more-work {
+	font-size: 45px;
+	margin-top: -5%;
+	margin-left: 60%;
+	font-weight: 800;
+	padding-bottom: 5%;
+	user-select: none;
+	/*text-align: right;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
