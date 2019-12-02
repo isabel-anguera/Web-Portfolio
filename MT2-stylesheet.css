@@ -57,6 +57,11 @@ p {
 
 }
 
+iframe{
+	margin: 7% 0 7% 15%;
+
+}
+
 .wrap {
 	max-width: 65%;
 	margin: 0 auto 0 auto;
