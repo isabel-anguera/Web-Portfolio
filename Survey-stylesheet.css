@@ -1,0 +1,83 @@
+body {
+	margin: 0;
+	font-family: Raleway;
+
+}
+
+h1 {
+	font-size: 52px;
+	margin-bottom: 5%;
+}
+
+h2 {
+	font-weight: 600;
+	color: #555555;
+}
+
+img {
+	width: 100%;
+	background-color: #82AECC;
+	padding: 3%;
+}
+
+a {
+	text-decoration: none;
+	color: #555555;
+}
+
+a:hover {
+	color: #A4D8FC;
+}
+
+a:active {
+	color: black;
+}
+
+.wrap {
+	max-width: 65%;
+	margin: 0 auto 0 auto;
+}
+
+#question {
+	margin-bottom: 10%;
+}
+
+#answer-box {
+	background-color: #82AECC;
+	padding: 3% 5%;
+	width: 100%;
+	height: 400px;
+	overflow-x: hidden;
+	border-radius: 10px;
+}
+
+#answer {
+	background-color: #A4D8FC;
+	padding: 2% 4%;
+	border: 4px solid #82AECC;
+}
+
+#Back-Arrow {
+	font-size: 42px;
+	font-weight: 800;
+	margin: 2% 0 2% 2%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #A4D8FC; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #82AECC; 
+}
