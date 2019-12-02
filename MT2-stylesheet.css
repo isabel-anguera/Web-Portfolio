@@ -1,0 +1,142 @@
+h2, a, h3 {
+	font-family: Raleway;
+}
+
+body {
+	margin:0;
+}
+
+li {
+	display: inline;
+	list-style-type: none;
+	padding: 5px 10px;
+	font-size: 16px;
+}
+
+ul {
+	background:white;
+	box-shadow: -3px 3px 5px silver;
+	margin: 0;
+	padding: 1.5%;
+	margin-bottom: 5px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: #BCD9B6;
+}
+
+a:active {
+	color: black;
+}
+
+img {
+	width: 100%;
+	margin-bottom: 5%;
+}
+
+h2 {
+	font-size: 42px;
+}
+
+h3 {
+	font-size: 25px;
+	font-weight: 600;
+	margin-bottom: .7%;
+}
+
+p {
+	font-family: "Avenir Next";
+	width: 100%;
+	font-size: 16px;
+	text-align: justify;
+
+}
+
+.wrap {
+	max-width: 65%;
+	margin: 0 auto 0 auto;
+}
+
+
+#column {
+	flex: 50%;
+	-webkit-column-gap: 5%;
+	column-gap: 5%;
+	padding: 2% 4%;
+	margin: 2%;
+	background-color: #D4ECFC;
+}
+
+#row {
+	display: flex;
+}
+
+#genesis-quote {
+	background-color: #F1FFEE;
+	padding: 2% 6%;
+	margin:10%;
+}
+
+#transcript {
+	background-color: #F1FFEE;
+	padding: 2% 6%;
+	margin:10%;
+	overflow-x:hidden;
+	width: 75%;
+	height: 400px;
+}
+
+#section {
+	margin-top: 10%;
+}
+
+#more-work {
+	font-size: 55px;
+	margin-top: -5%;
+	margin-left: 60%;
+	font-weight: 800;
+	padding-bottom: 5%;
+	user-select: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #BCD9B6; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #F1FFEE; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
