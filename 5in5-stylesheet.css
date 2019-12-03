@@ -60,6 +60,7 @@ ul {
 	margin: 0;
 	padding: 1.5%;
 	margin-bottom: 5px;
+	white-space: nowrap;
 
 }
 
@@ -126,17 +127,35 @@ a:active {
 }
 
 #more-work {
-	font-size: 45px;
-	margin-top: -5%;
-	margin-left: 30%;
-	font-weight: 800;
-	padding-bottom: 5%;
-	user-select: none;
-	color: #e16e79;
+	font-size: 55px;
 }
 
 #more-work:hover {
 	color: tomato;
+}
+
+#icon-img {
+	opacity: .8;
+}
+
+#icon-img:hover {
+	opacity: 1;
+}
+
+#More-work-section {
+	font-size: 45px;
+	margin-top: 15%;
+	font-weight: 800;
+	padding-bottom: 5%;
+	user-select: none;
+	color: #e16e79;
+
+	margin-left: 15%;
+}
+
+#more-work-ul {
+	box-shadow: none;
+	/*background-color: silver;*/
 }
 
 

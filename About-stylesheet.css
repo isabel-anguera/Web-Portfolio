@@ -19,6 +19,7 @@ ul {
 	margin: 0;
 	padding: 1.5%;
 	margin-bottom: 5px;
+	white-space: nowrap;
 }
 
 a {

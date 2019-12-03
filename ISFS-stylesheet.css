@@ -23,6 +23,7 @@ ul {
 	margin: 0;
 	padding: 1.5%;
 	margin-bottom: 5px;
+	white-space: nowrap;
 
 }
 
@@ -262,13 +263,35 @@ hr {
 
 #more-work {
 	font-size: 55px;
-	padding-top: 15%;
-	margin-left: 30%;
+}
+
+#more-work:hover {
+	color: tomato;
+}
+
+#More-work-section {
+	font-size: 45px;
+	margin-top: 20%;
 	font-weight: 800;
 	padding-bottom: 5%;
 	user-select: none;
+	color: #e16e79;
 
-	/*color: #e16e79;*/
+	margin-left: 25%;
+}
+
+#more-work-ul {
+	box-shadow: none;
+	background-color: #ffffff00
+	/*background-color: silver;*/
+}
+
+#icon-img {
+	opacity: .8;
+}
+
+#icon-img:hover {
+	opacity: 1;
 }
 
 ::-webkit-scrollbar {

@@ -29,6 +29,7 @@ ul {
 	box-shadow: -3px 3px 5px silver;
 	margin: 0;
 	padding: 1.5%;
+	white-space: nowrap;
 }
 
 img {
@@ -104,11 +105,24 @@ a:active {
 	font-family: Raleway;
 	font-weight: 800;
 	font-size: 52px;
-	margin-bottom: -3.35%;
+	margin-bottom: -3.3%;
 	padding: 0 0 0 2%;
 	z-index:2;
 
 }
+
+#icons {
+	margin: 0 10px 0 0;
+}
+
+#icon-img {
+	opacity: .8;
+}
+
+#icon-img:hover {
+	opacity: 1;
+}
+
 
 
 
