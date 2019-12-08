@@ -106,7 +106,8 @@ a:active {
 	font-weight: 800;
 	font-size: 52px;
 	margin-bottom: -3.3%;
-	padding: 0 0 0 2%;
+	position:relative;
+	padding: 0 0 .5% 2%;
 	z-index:2;
 
 }
