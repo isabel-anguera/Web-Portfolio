@@ -77,8 +77,22 @@ p {
 
 #resume:hover {
 	color: black;
+	border-bottom: 2px solid black;
 }
 
 #resume:active {
 	color:#85C189;
+}
+
+#icons {
+	margin: 0 10px 0 0;
+}
+
+
+#icon-img {
+	opacity: .8;
+}
+
+#icon-img:hover {
+	opacity: 1;
 }
