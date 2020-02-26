@@ -1,9 +1,11 @@
 html {
-	font-family: "Aveir Next";
-}
+	font-family: "Avenir Next";
+	}
 
 body {
 	margin: 0;
+
+
 }
 
 li {
@@ -50,6 +52,10 @@ p {
 	line-height: 1.6;
 }
 
+iframe {
+	margin-bottom: 10%;
+}
+
 .wrap {
 	max-width: 70%;
 	margin: 0 auto 0 auto;
@@ -66,6 +72,12 @@ p {
 #row {
 	display: flex;
 	/*margin-bottom: 7%;*/
+}
+
+#product-img {
+	margin-top: 10%;
+	width: 100%;
+	columns: auto;
 }
 
 #more-work {
@@ -112,10 +124,10 @@ p {
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #79BBED; 
+  background: red; 
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #5097CD; 
+  background: tomato; 
 }
